@@ -4,13 +4,12 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build"
+    "build": "vite build --watch"
   },
   "dependencies": {
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@vitejs/plugin-legacy": "^1.7.1",
     "@vitejs/plugin-vue": "^2.2.0",
     "path": "^0.12.7",
     "vite": "^2.8.0"
