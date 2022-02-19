@@ -19,6 +19,12 @@ export default defineConfig({
     port: 80
   },
 
+  resolve: {
+    alias: {
+      '@': PATHS.src
+    },
+  },
+
   plugins: [
     vue()
   ],
